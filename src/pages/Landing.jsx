@@ -2,13 +2,9 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Landing.css';
 
-/* ── Reusable SVGs (Zero Standard Placeholders) ── */
-const LogoSVG = () => (
-  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="100" height="100" rx="24" fill="#1D1D1F" />
-    <path d="M50 25C36 25 25 36 25 50C25 64 36 75 50 75C64 75 75 64 75 50" stroke="#0066CC" strokeWidth="6" strokeLinecap="round" strokeDasharray="10 20"/>
-    <circle cx="50" cy="50" r="12" fill="#0066CC" />
-  </svg>
+/* ── Reusable Components ── */
+const LogoImg = ({ size = 32 }) => (
+  <img src="/logo.png" alt="AgentClaw" width={size} height={size} style={{borderRadius: size * 0.22, flexShrink: 0}} />
 );
 
 const CheckSVG = () => (
@@ -106,7 +102,7 @@ function InteractiveHeroPhone() {
           <div className="device-screen">
             <div className="device-ui">
               <div className="ui-header">
-                <LogoSVG /> Agent Workspace
+                <LogoImg size={28} /> Agent Workspace
               </div>
               {msgs.map((m, idx) => (
                 <div key={idx} className={`ui-bubble ${m.type}`}>{m.txt}</div>
@@ -174,7 +170,7 @@ export default function Landing() {
       {/* ── Top Nav ── */}
       <nav className={`top-nav ${scrolled ? 'scrolled' : ''}`}>
         <Link to="/" className="nav-brand">
-          <LogoSVG /> AgentClaw
+          <LogoImg /> AgentClaw
         </Link>
         <div className="nav-links">
           <a href="#features">Features</a>
@@ -448,7 +444,7 @@ export default function Landing() {
           <div className="compare-card compare-hero reveal d-2">
             <div className="compare-badge">Best Experience</div>
             <div className="compare-icon">
-              <LogoSVG />
+              <LogoImg />
             </div>
             <h3>AgentClaw</h3>
             <p className="compare-subtitle">Native iOS, full OpenClaw power</p>
@@ -606,7 +602,7 @@ export default function Landing() {
       <footer className="master-foot reveal">
         <div className="foot-layout">
           <div>
-            <div className="foot-brand"><LogoSVG /> AgentClaw</div>
+            <div className="foot-brand"><LogoImg /> AgentClaw</div>
             <p className="foot-copy-txt">The native iOS app for deploying OpenClaw AI agents. Persistent memory, cron jobs, and Docker containers — managed from your iPhone.</p>
           </div>
           <div className="foot-navs">
