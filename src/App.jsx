@@ -1,20 +1,35 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
+import Landing from './pages/Landing';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 
 function App() {
   return (
     <Router>
-      <Layout>
-        <Routes>
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-          <Route path="/terms" element={<TermsOfService />} />
-          {/* Default route redirects to Privacy Policy */}
-          <Route path="*" element={<Navigate to="/privacy" replace />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* Landing page — standalone layout */}
+        <Route path="/" element={<Landing />} />
+
+        {/* Legal pages — document layout with sidebar */}
+        <Route
+          path="/privacy"
+          element={
+            <Layout>
+              <PrivacyPolicy />
+            </Layout>
+          }
+        />
+        <Route
+          path="/terms"
+          element={
+            <Layout>
+              <TermsOfService />
+            </Layout>
+          }
+        />
+      </Routes>
     </Router>
   );
 }
