@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
           <div className="footer-links">
             <NavLink to="/privacy">Privacy Policy</NavLink>
             <NavLink to="/terms">Terms of Service</NavLink>
-            <a href="mailto:support@agent-claw.app">Contact</a>
+            <a href="mailto:shokhzodsunnatov@gmail.com">Contact</a>
           </div>
           <p className="copyright">&copy; {new Date().getFullYear()} AgentClaw. All rights reserved.</p>
         </div>
