@@ -178,7 +178,7 @@ export default function Landing() {
           <a href="#pricing">Pricing</a>
         </div>
         <div>
-          <a href="https://apps.apple.com/app/agentclaw" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{padding: '10px 20px', fontSize: '0.9rem'}} aria-label="Download AgentClaw on the App Store">Download Free</a>
+          <a href="https://apps.apple.com/uz/app/agentclaw-ai-client/id6759483620" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{padding: '10px 20px', fontSize: '0.9rem'}} aria-label="Download AgentClaw on the App Store">Download Free</a>
         </div>
       </nav>
 
@@ -199,7 +199,7 @@ export default function Landing() {
         </p>
 
         <div className="hero-actions reveal d-3">
-          <a href="https://apps.apple.com/app/agentclaw" target="_blank" rel="noopener noreferrer" className="btn-primary" aria-label="Download AgentClaw on the App Store">Download on App Store <PlaySVG /></a>
+          <a href="https://apps.apple.com/uz/app/agentclaw-ai-client/id6759483620" target="_blank" rel="noopener noreferrer" className="btn-primary" aria-label="Download AgentClaw on the App Store">Download on App Store <PlaySVG /></a>
           <a href="#features" className="btn-secondary">See All Features</a>
         </div>
 
@@ -458,7 +458,7 @@ export default function Landing() {
               <li className="compare-pro"><svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg> 12+ tools + skills marketplace</li>
               <li className="compare-pro"><svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg> Deploy in 12 seconds, zero DevOps</li>
             </ul>
-            <a href="https://apps.apple.com/app/agentclaw" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{width: '100%', textAlign: 'center', marginTop: '1.5rem'}}>Download Free</a>
+            <a href="https://apps.apple.com/uz/app/agentclaw-ai-client/id6759483620" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{width: '100%', textAlign: 'center', marginTop: '1.5rem'}}>Download Free</a>
           </div>
         </div>
       </section>
@@ -567,7 +567,7 @@ export default function Landing() {
               <li><CheckSVG /> 60 AI messages / month</li>
               <li><CheckSVG /> 1 Container Instance</li>
             </ul>
-            <a href="https://apps.apple.com/app/agentclaw" target="_blank" rel="noopener noreferrer" className="btn-secondary" style={{width: '100%', textAlign: 'center', display: 'block'}} aria-label="Get AgentClaw Lite on App Store">Get Started Free</a>
+            <a href="https://apps.apple.com/uz/app/agentclaw-ai-client/id6759483620" target="_blank" rel="noopener noreferrer" className="btn-secondary" style={{width: '100%', textAlign: 'center', display: 'block'}} aria-label="Get AgentClaw Lite on App Store">Get Started Free</a>
           </div>
 
           <div className="slab pro reveal d-1">
@@ -581,7 +581,7 @@ export default function Landing() {
               <li><CheckSVG /> Unlimited cron jobs</li>
               <li><CheckSVG /> Full skills marketplace</li>
             </ul>
-            <a href="https://apps.apple.com/app/agentclaw" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{width: '100%', textAlign: 'center', display: 'block'}} aria-label="Get AgentClaw Pro on App Store">Get AgentClaw Pro</a>
+            <a href="https://apps.apple.com/uz/app/agentclaw-ai-client/id6759483620" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{width: '100%', textAlign: 'center', display: 'block'}} aria-label="Get AgentClaw Pro on App Store">Get AgentClaw Pro</a>
           </div>
 
           <div className="slab reveal d-2">
@@ -593,7 +593,7 @@ export default function Landing() {
               <li><CheckSVG /> 10 OpenClaw containers</li>
               <li><CheckSVG /> Priority model access</li>
             </ul>
-            <a href="https://apps.apple.com/app/agentclaw" target="_blank" rel="noopener noreferrer" className="btn-secondary" style={{width: '100%', textAlign: 'center', display: 'block'}} aria-label="Get AgentClaw Max on App Store">Get AgentClaw Max</a>
+            <a href="https://apps.apple.com/uz/app/agentclaw-ai-client/id6759483620" target="_blank" rel="noopener noreferrer" className="btn-secondary" style={{width: '100%', textAlign: 'center', display: 'block'}} aria-label="Get AgentClaw Max on App Store">Get AgentClaw Max</a>
           </div>
         </div>
       </section>
